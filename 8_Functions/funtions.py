@@ -23,9 +23,9 @@ my_function_with_args("John Doe", "a great year!")
 x = sum_two_numbers(1,2)
     print(x)
     
-# Modify this function to return a list of strings as defined above
+# Modify this function to return a list of strings as defined 
 def list_benefits():
-    return []
+    return "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
 
 # Modify this function to concatenate to each benefit - " is a benefit of functions!"
 def build_sentence(benefit):
