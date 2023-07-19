@@ -98,3 +98,6 @@ urllib.urlopen(...)
 'splitquery', 'splittag', 'splittype', 'splituser', 'splitvalue', 'ssl', 'string', 'sys', 'test', 'test1', 
 'thishost', 'time', 'toBytes', 'unquote', 'unquote_plus', 'unwrap', 'url2pathname', 'urlcleanup', 'urlencode', 
 'urlopen', 'urlretrieve']
+
+#  we can read more about it with the help function, using the Python interpreter:
+help(urllib.urlopen)
