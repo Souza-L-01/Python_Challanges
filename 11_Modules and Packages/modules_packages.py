@@ -72,3 +72,7 @@ class Screen():
 
 # initialize main_screen as a singleton
 main_screen = Screen()
+
+# Extending module load path
+PYTHONPATH=/foo python game.py
+sys.path.append("/foo")
