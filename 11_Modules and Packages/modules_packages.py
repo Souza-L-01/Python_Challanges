@@ -20,9 +20,19 @@ if __name__ == '__main__':
 
 # The draw module may look something like this:
 # draw.py
-
 def draw_game():
 	...
 
 def clear_screen(screen):
 	...
+
+# Importing all objects from a module
+# use the import * command to import all the objects in a module
+
+# game.py
+# import the draw module
+from draw import *
+
+def main():
+    result = play_game()
+    draw_game(result)
