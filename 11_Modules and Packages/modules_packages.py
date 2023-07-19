@@ -76,3 +76,9 @@ main_screen = Screen()
 # Extending module load path
 PYTHONPATH=/foo python game.py
 sys.path.append("/foo")
+
+# built-in modules
+# import the library
+import urllib
+# use it
+urllib.urlopen(...)
