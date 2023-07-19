@@ -34,5 +34,23 @@ def clear_screen(screen):
 from draw import *
 
 def main():
-    result = play_game()
-    draw_game(result)
+	result = play_game()
+	draw_game(result)
+
+# Custom import name
+# Modules may be loaded under any name you want. This is useful when importing a module conditionally to use the same name in the rest of the code.
+# For example, if you have two draw modules with slighty different names, you may do the following:
+
+# game.py
+# import the draw module
+if visual_mode:
+	# in visual mode, we draw using graphics
+	import draw_visual as draw
+else:
+	# in textual mode, we print out text
+	import draw_textual as draw
+
+def main():
+	result = play_game()
+	# this can either be visual or textual depending on visual_mode
+	draw.draw_game(result)
