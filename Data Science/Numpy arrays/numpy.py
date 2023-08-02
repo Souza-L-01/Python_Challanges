@@ -1,15 +1,15 @@
-# Modules and Packages
-# In programming, a module is a piece of software that has a specific functionality. For example, when building a ping pong game, one module may be responsible for the game logic, and another module draws the game on the screen. Each module consists of a different file, which may be edited separately.
+# Numpy Arrays
+# Getting started
+# Numpy arrays are great alternatives to Python Lists. Some of the key advantages of Numpy arrays are that they are fast, easy to work with, and give users the opportunity to perform calculations across entire arrays.
 
-# Writing modules
-# Modules in Python are just Python files with a .py extension. The name of the module is the same as the file name. A Python module can have a set of functions, classes, or variables defined and implemented. The example above includes two files:
+# In the following example, you will first create two Python lists. Then, you will import the numpy package and create numpy arrays out of the newly created lists.
+# Create 2 new lists height and weight
+height = [1.87,  1.87, 1.82, 1.91, 1.90, 1.85]
+weight = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
 
-# mygame/
+# Import the numpy package as np
+import numpy as np
 
-# mygame/game.py
-
-# mygame/draw.py
-
-# The Python script game.py implements the game. It uses the function draw_game from the file draw.py, or in other words, the draw module that implements the logic for drawing the game on the screen.
-
-# Modules are imported from other modules using the import command. In this example, the game.py script may look something like this:
+# Create 2 numpy arrays from height and weight
+np_height = np.array(height)
+np_weight = np.array(weight)
