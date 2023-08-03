@@ -32,3 +32,6 @@ my_num = -5
 print (abs(my_num)) #absolute value
 print (pow(3, 2)) #3 to the power of 2  = 9 // also means 3*3 (3 elevetad to the power of 2)
 print(round(3.7)) #rounds to the nearest number
+print(floor(3.7)) #rounds down
+print(ceil(3.7)) #rounds up
+print(sqrt(36)) #square root
