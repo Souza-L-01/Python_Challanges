@@ -15,3 +15,12 @@
 #   I order spaghetti & meatballs
 # otherwise:
 #   I order a salad.
+
+is_male = False
+is_tall = False
+
+if is_male or is_tall:
+  print("You're a man")
+else:
+  print ("You're a woman")
+
