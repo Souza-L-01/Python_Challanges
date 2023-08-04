@@ -20,7 +20,13 @@ is_male = False
 is_tall = False
 
 if is_male or is_tall:
-  print("You're a man")
+  print("You're a tall man")
+elif is_male and not(is_tall):
+  print("Your're short")
+elif not (is_male) and is_tall:
+  print("You're tall woman")
 else:
-  print ("You're a woman")
+  print ("You're neither")
 
+# or: flase or false = false
+# and: true and true = true
