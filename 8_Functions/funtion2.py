@@ -9,3 +9,9 @@ print("Bottom")
 # Bottom
 
 say_hi("Mike", 35)
+
+# Path: 8_Functions/return.py
+def cube (num):
+  return num*num*num
+
+print (cube(3))
