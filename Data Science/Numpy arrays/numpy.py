@@ -21,4 +21,3 @@ bmi > 23
 
 # Print only those observations above 23
 bmi[bmi > 23]
-
