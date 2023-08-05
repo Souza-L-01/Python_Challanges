@@ -15,3 +15,10 @@ np_height = np.array(height)
 np_weight = np.array(weight)
 
 print(type(np_height))
+
+# For a boolean response
+bmi > 23
+
+# Print only those observations above 23
+bmi[bmi > 23]
+
