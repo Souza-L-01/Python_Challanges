@@ -23,3 +23,9 @@ print("Zeros Array:")
 print(zeros_array)
 print()
 
+# Create an array with random values
+random_array = np.random.random((2, 2))
+print("Random Array:")
+print(random_array)
+print()
+
