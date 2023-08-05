@@ -17,3 +17,9 @@ print("Ones Array:")
 print(ones_array)
 print()
 
+# Create an array of zeros
+zeros_array = np.zeros((2, 3, 4), dtype=np.int16)
+print("Zeros Array:")
+print(zeros_array)
+print()
+
