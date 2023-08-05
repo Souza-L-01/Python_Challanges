@@ -46,3 +46,6 @@ arange_array = np.arange(10, 25, 5)
 print("Arange Array:")
 print(arange_array)
 print()
+
+# Create an array of evenly-spaced values
+np.linspace(0,2,9)
