@@ -29,3 +29,9 @@ print("Random Array:")
 print(random_array)
 print()
 
+# Create an empty array
+empty_array = np.empty((3, 2))
+print("Empty Array:")
+print(empty_array)
+print()
+
