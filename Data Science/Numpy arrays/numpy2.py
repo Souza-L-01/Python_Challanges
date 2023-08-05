@@ -10,3 +10,10 @@ np_weight_lbs = np_weight_kg * 2.2
 
 # Print out np_weight_lbs
 print(np_weight_lbs)
+
+# Create an array of ones
+ones_array = np.ones((3, 4))
+print("Ones Array:")
+print(ones_array)
+print()
+
