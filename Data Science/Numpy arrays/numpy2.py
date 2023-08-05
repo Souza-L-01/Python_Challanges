@@ -35,3 +35,9 @@ print("Empty Array:")
 print(empty_array)
 print()
 
+# Create a full array
+full_array = np.full((2, 2), 7)
+print("Full Array:")
+print(full_array)
+print()
+
