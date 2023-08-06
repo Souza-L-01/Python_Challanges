@@ -6,11 +6,12 @@ monthConvertions = {
   "May": "May",
   "Jun": "June",
   "Jul": "July", 
-  "Aug": "August"
-  "Sep": "Septemper"
-  "Oct": "October"
-  "Nov": "November"
-  "Dec": "December"
+  "Aug": "August",
+  "Sep": "28 Septemper",
+  "Oct": "October",
+  "Nov": "November",
+  "Dec": "December",
 }
 
-print(monthConvertions["Nov"])
+print(monthConvertions["Sep"])
+print(monthConvertions["CaT", "Not a valid key"])
