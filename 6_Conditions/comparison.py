@@ -6,3 +6,9 @@ def  max_num(num1, num2, num3):
     return num2
   else:
     return num3
+
+print(max_num(3, 4, 5))
+
+# Path: 6_Conditions/comparison.py
+# Compare this snippet from 12_user input/user.py:
+# name = input("Enter you name: ")
