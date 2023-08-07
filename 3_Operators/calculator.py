@@ -21,7 +21,7 @@
 # exponent 8_Functions
 
 base_num = float(input("Enter base number: "))
-pow_num = float(input("Enter power number: "))
+pow_num = int(input("Enter power number: "))
 def raise_to_power(base_num, pow_num):
   result = 1
   for index in range(pow_num):
