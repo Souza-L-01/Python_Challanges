@@ -17,3 +17,12 @@ elif op == "*":
   print(num1 * num2)
 else:
   print("Invalid operator")
+
+# exponent 8_Functions
+
+base_num = float
+def raise_to_power(base_num, pow_num):
+  result = 1
+  for index in range(pow_num):
+    result = result * base_num 
+  return result
