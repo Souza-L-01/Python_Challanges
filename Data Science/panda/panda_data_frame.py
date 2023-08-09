@@ -35,3 +35,17 @@ print(cars)
     4         RU           200         Russia         True
     5        MOR            70        Morocco         True
     6         EG            45          Egypt         True
+
+# Indexing DataFrames
+# Import pandas and cars.csv
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Print out country column as Pandas Series
+print(cars['cars_per_cap'])
+
+# Print out country column as Pandas DataFrame
+print(cars[['cars_per_cap']])
+
+# Print out DataFrame with country and drives_right columns
+print(cars[['cars_per_cap', 'country']])
