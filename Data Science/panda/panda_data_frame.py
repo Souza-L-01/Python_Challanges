@@ -49,3 +49,29 @@ print(cars[['cars_per_cap']])
 
 # Print out DataFrame with country and drives_right columns
 print(cars[['cars_per_cap', 'country']])
+
+<script.py> output:
+    US     809
+    AUS    731
+    JAP    588
+    IN      18
+    RU     200
+    MOR     70
+    EG      45
+    Name: cars_per_cap, dtype: int64
+         cars_per_cap
+    US            809
+    AUS           731
+    JAP           588
+    IN             18
+    RU            200
+    MOR            70
+    EG             45
+         cars_per_cap        country
+    US            809  United States
+    AUS           731      Australia
+    JAP           588          Japan
+    IN             18          India
+    RU            200         Russia
+    MOR            70        Morocco
+    EG             45          Egypt
