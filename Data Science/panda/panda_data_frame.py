@@ -15,3 +15,13 @@ brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
 # Print out brics with new index values
 print(brics)
+
+#  DataFrame is by importing a csv file using Pandas. Now, the csv cars.csv is stored and can be imported using pd.read_csv:
+# Import pandas as pd
+import pandas as pd
+
+# Import the cars.csv data: cars
+cars = pd.read_csv('cars.csv')
+
+# Print out cars
+print(cars)
