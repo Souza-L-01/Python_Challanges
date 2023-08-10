@@ -16,5 +16,9 @@
 
  
 text_sample = open("text_sample.txt", "a")
-text_sample.write("Toby - Human Resources")
+text_sample.write("\nToby - Human Resources")
+text_sample.close()
+
+text_sample = open("text_sample1.txt", "w")
+text_sample.write("\nToby - Human Resources")
 text_sample.close()
