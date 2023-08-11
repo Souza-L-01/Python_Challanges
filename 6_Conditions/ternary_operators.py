@@ -31,3 +31,15 @@ print truthy_test('yes')
 # 0 is also considered Falsey.
 print truthy_test(0)
 # Nope. It's Falsey.
+
+def driving_status(driver_age, test_score):
+  if test_score >= 80: 
+    if 18 > driver_age >= 16:
+      return "Student driver, needs supervision."
+    elif driver_age == 18:
+      return "Permitted driver, on probation."
+    elif driver_age > 18:
+      return "Fully licensed driver."
+  else:
+    return "Unlicensed!"
+
