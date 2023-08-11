@@ -43,3 +43,12 @@ def driving_status(driver_age, test_score):
   else:
     return "Unlicensed!"
 
+
+print driving_status(63, 78)
+# 'Unlicsensed!'
+
+print driving_status(16, 81)
+# 'Student driver, needs supervision.'
+
+print driving_status(23, 80)
+# 'Fully licsensed driver.'
