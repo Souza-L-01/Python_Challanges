@@ -11,4 +11,4 @@ print(max_num(3, 4, 5))
 
 # Path: 6_Conditions/comparison.py
 # Compare this snippet from 12_user input/user.py:
-# name = input("Enter you name: ")
+# name = input(   "Enter you name: ")
